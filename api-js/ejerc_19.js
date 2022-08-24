@@ -7,7 +7,7 @@ const listUsers = async ()=>{
     let tableBody = ``;
 
     //imprimo cada uno de los users
-    users.forEach((users, index) => {
+    users.forEach((users) => {
         //concateno dinamicamente
         tableBody+= `<tr>
         <td class="centered">${users.id}</td>
